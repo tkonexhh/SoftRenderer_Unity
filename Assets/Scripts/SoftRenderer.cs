@@ -97,7 +97,7 @@ public class SoftRenderer : MonoBehaviour
     {
         if (first)
         {
-            //first = false;
+            first = false;
             HScreenDevice.S.Draw();
 
             for (int i = 0; i < HScreenDevice.S.ScreenHeight; i++)
